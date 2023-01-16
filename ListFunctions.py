@@ -1,0 +1,32 @@
+
+lucky_numbers = [4, 8, 23, 15, 16, 42]
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+print(friends)
+friends.extend(lucky_numbers)
+print(friends)
+friends.append("Creed")
+print(friends)
+friends.insert(1, "Kelly")
+print(friends)
+friends.remove("Jim")
+print(friends)
+friends.clear()
+print(friends)
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+print(friends)
+friends.pop()
+print(friends)
+print(friends.index("Kevin"))
+print(friends.index("Oscar"))
+friends.insert(friends.index("Jim"), "Jim")
+print(friends.count("Jim"))
+friends.sort()
+print(friends)
+lucky_numbers.sort()
+print(lucky_numbers)
+lucky_numbers.reverse()
+print(lucky_numbers)
+friends2 = friends.copy()
+print(friends2)
+friends3 = friends
+print(friends3)
